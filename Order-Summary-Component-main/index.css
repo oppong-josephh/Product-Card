@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224,232,255,255);
+    margin-top: 60px;
+    background-image:url(./images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat;
+  }
+  .container{
+    max-width: max-content;
+    position: relative;
+    box-shadow: 2px 4px 20px -6px rgba(0,0,0,0.5);
+    background-color: white;
+  }
+  .salary{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 4px 20px -6px rgba(0,0,0,0.5);
+    border-width: 10px;
+    background-color: #f8f9fe;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  .image-2{
+    margin-top: 20px;
+  }
+  .change{
+    margin-top: 30px;
+    color: blue;
+  }
+  .Plan{
+    margin-right: 8rem;
+  }
+  .Plan-price{
+    margin-right: 10rem;
+  }
+  .main-description{
+    text-align: center;
+  }
+  
+  button{
+    margin-top: 30px;
+    border: none;
+    padding: 12px 70px;
+    color: white;
+    background-color: rgba(56,42,225,255);
+    border-radius: 8px;
+    box-shadow: 2px 4px 20px rgba(0,0,0,0.5);
+  }
+  button:hover{
+    color: blue;
+    background-color: #d6e1ff;
+  }
+  h4{
+    color: #7b8195;
+  }
+
+
+
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
